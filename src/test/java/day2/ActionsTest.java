@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class ActionsTest {
     WebDriver driver;
 
-    @BeforeMethod
+//    @BeforeMethod
     public void openChorme() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\IdeaProjects\\test\\lvwei\\.idea\\dirvers\\chromedriver.exe");
         //WebDriver webDriver = new ChromeDriver();
@@ -22,7 +22,7 @@ public class ActionsTest {
         Thread.sleep(1000);
     }
 
-    @Test
+//    @Test
     public void clickTest() {
         WebElement newslink = driver.findElement(By.xpath("//*[@id=\"s-top-left\"]/a[1]"));
         //点击新闻链接
@@ -32,7 +32,7 @@ public class ActionsTest {
         //  Assert.assertEquals(url,"http://news.baidu.com/");
     }
 
-    @Test
+//    @Test
     public void sendkeysTest() {
         driver.get("https://www.baidu.com");
         WebElement keys = driver.findElement(By.id("kw"));
@@ -48,12 +48,12 @@ public class ActionsTest {
      * 打开百度
      * 获取tagname
      */
-    @Test
+//    @Test
     public void getTegNameTest() {
 
     }
 
-    @Test
+//    @Test
     public void idSelectTest() {
         driver.get("https://www.baidu.com");
         WebElement element = driver.findElement(By.id("123"));
@@ -63,12 +63,12 @@ public class ActionsTest {
         Boolean b = element.isSelected();
         Assert.assertTrue(b);
     }
-    @Test
+//    @Test
     public void enAble(){
         //判断元素是否被激活
     }
 
-    @AfterMethod
+//    @AfterMethod
     public void closeBrowser() {
         driver.quit();
     }

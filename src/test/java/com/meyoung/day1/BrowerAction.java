@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 
 public class BrowerAction {
-    @Test
+//    @Test
     public void openFF() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\IdeaProjects\\test\\lvwei\\.idea\\dirvers\\chromedriver.exe");
         //WebDriver webDriver = new ChromeDriver();

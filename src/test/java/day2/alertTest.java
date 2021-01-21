@@ -21,7 +21,7 @@ public class alertTest {
         Thread.sleep(1000);
     }
 
-    @Test
+//    @Test
     public void alertTest() {
         //alert弹出框
         driver.get("https://www.baidu.com");

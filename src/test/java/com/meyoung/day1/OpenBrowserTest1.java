@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class OpenBrowserTest1 {
 
-    @Test
+//    @Test
     public void openFF() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\86138\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
         //WebDriver webDriver = new ChromeDriver();

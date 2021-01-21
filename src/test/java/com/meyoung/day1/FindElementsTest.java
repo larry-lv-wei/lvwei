@@ -12,7 +12,7 @@ import java.util.List;
 
 public class FindElementsTest {
     WebDriver driver;
-    @BeforeMethod
+//    @BeforeMethod
     public void openChorme() throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "D:\\IdeaProjects\\test\\lvwei\\.idea\\dirvers\\chromedriver.exe");
@@ -25,7 +25,7 @@ public class FindElementsTest {
         //driver.get("https://www.zhihu.com/");
     }
 //打开百度地址
-    @Test
+//    @Test
     public void byIdTest() {
         driver.get("https://www.baidu.com");
         //Thread.sleep(1000);
@@ -41,7 +41,7 @@ public class FindElementsTest {
         //通过xpath查找元素
       WebElement xpath =  driver.findElement(By.xpath("//*[@id=\"s_tab\"]/div/a[6]"));
     }*/
-    @AfterMethod
+//    @AfterMethod
     public void colsedBrowser(){
         driver. quit();
 

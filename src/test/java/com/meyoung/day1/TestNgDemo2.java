@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class TestNgDemo2 {
 
 
-    @Test
+//    @Test
     public void asserEqualTest(){
 
         String a = "sssdd";

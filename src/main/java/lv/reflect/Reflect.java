@@ -1,4 +1,4 @@
-package reflect;
+package lv.reflect;
 
 public class Reflect {
     /**

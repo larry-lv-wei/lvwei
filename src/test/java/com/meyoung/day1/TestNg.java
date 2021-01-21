@@ -5,12 +5,12 @@ import org.testng.annotations.Test;
 
 public class TestNg {
 
-    @BeforeTest
+//    @BeforeTest
     public void beforeTestCase1(){
         System.out.println("这就是@testng");
     }
 
-    @Test
+//    @Test
     public void testCase1() {
         System.out.println("这就是@testng");
     }

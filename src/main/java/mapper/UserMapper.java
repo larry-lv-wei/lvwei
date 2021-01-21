@@ -1,2 +1,4 @@
-package mapper;public interface UserMapper {
+package mapper;
+
+public interface UserMapper {
 }

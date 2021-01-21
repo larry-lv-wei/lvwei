@@ -1,2 +1,4 @@
-package groups;public class GroupOnClass {
+package groups;
+
+public class GroupOnClass {
 }

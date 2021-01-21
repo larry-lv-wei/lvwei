@@ -1,4 +1,4 @@
-package domian;
+package lv.domian;
 
 public class Person {
     public void eat(){

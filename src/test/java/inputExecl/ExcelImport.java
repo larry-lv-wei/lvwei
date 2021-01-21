@@ -1,5 +1,10 @@
 package inputExecl;
 
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.io.FileInputStream;
 
 import java.util.ArrayList;
@@ -12,17 +17,8 @@ import java.util.List;
 
 import java.util.Map;
 
-import org.apache.poi.xssf.usermodel.XSSFCell;
 
-import org.apache.poi.xssf.usermodel.XSSFRow;
 
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import com.alibaba.fastjson.JSON;
-
-import com.daojia.certify.util.DateBuilder;
 
 /**
  * @Description : TODO导入excel
@@ -103,7 +99,7 @@ public class ExcelImport {
 
                 XSSFCell birthCell =row.getCell(4);
 
-                String birth = DateBuilder.convertDateToString(birthCell.getDateCellValue(), "yyyy-MM-dd");
+               // String birth = DateBuilder.convertDateToString(birthCell.getDateCellValue(), "yyyy-MM-dd");
 
                 map.put("name", name);
 
@@ -111,7 +107,7 @@ public class ExcelImport {
 
                 map.put("age", age);
 
-                map.put("birth", birth);
+               // map.put("birth", birth);
 
                 list.add(map);
 
@@ -119,7 +115,7 @@ public class ExcelImport {
 
         }
 
-        System.out.println("list = "+JSON.toJSONString(list));
+       // System.out.println("list = "+JSON.toJSONString(list));
 
     }
 
@@ -149,4 +145,4 @@ public class ExcelImport {
 
         }
 
-    }
+    }}

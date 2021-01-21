@@ -1,0 +1,21 @@
+[
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method":"post",
+      "forms":{
+      "name":"lvwei",
+      "sex":"man"
+      }
+    },
+    "response":{
+  "text": "第一个post请求,带参数",
+
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+
+      }
+  }
+]

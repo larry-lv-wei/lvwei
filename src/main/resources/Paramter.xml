@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite name="parameter">
-    <test name="param">
+<suite name="Parameters">
+    <test name="ParamterTest">
         <classes>
             <parameter name="name" value="zhangsan"/>
             <parameter age="age" value="12"/>

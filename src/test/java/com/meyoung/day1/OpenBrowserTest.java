@@ -9,7 +9,7 @@ import javax.xml.ws.WebEndpoint;
 
 public class OpenBrowserTest {
 
-    @Test
+//    @Test
     public void openFF() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\IdeaProjects\\test\\lvwei\\.idea\\dirvers\\chromedriver.exe");
         //WebDriver webDriver = new ChromeDriver();

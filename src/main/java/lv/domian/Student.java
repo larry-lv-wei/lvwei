@@ -1,4 +1,4 @@
-package domian;
+package lv.domian;
 
 public class Student {
     public void sleep(){
